@@ -1,0 +1,15 @@
+{
+  "id": "matn.ext.rust",
+  "name": "Rust Language Server (rust-analyzer)",
+  "version": "1.0.0",
+  "author": "Matn Team",
+  "description": "Real-time Rust diagnostics, code completion, hover docs, formatting, and go-to-definition via rust-analyzer",
+  "category": "languages",
+  "type": "lsp",
+  "language": "rust",
+  "server": "rust-analyzer",
+  "command": "rust-analyzer",
+  "extensions": [".rs"],
+  "rootMarkers": ["Cargo.toml", "Cargo.lock", ".git"],
+  "repository": "https://github.com/matn-extensions/ext-rust"
+}
